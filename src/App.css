@@ -350,7 +350,11 @@
   text-align: center;
   opacity: 0;
   transition: opacity 0.3s ease;
-  background-color: rgba(117, 116, 116, 0.473);
+  background-color: rgba(70, 68, 68, 0.473);
+}
+
+.item-img-hover a{
+  margin: 0px 10px;
 }
 
 .item-img-hover:hover {
@@ -514,11 +518,10 @@
   justify-content: center;
 }
 
-.follow-section-footer h3{
+.follow-section-footer h3 {
   font-size: 18px;
   margin: 0px 10px;
 }
-
 
 /*---------KeyFrames---------*/
 
@@ -531,4 +534,4 @@
     opacity: 1;
     transform: translateY(-100%) scale(1);
   }
-} 
+}
