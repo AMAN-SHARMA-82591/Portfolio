@@ -350,7 +350,7 @@
   text-align: center;
   opacity: 0;
   transition: opacity 0.3s ease;
-  background-color: rgba(70, 68, 68, 0.473);
+  background-color: #ffffffa8;
 }
 
 .item-img-hover a{
