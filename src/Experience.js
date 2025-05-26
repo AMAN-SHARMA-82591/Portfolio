@@ -19,7 +19,7 @@ function Experience() {
         </div>
         <div className="exp-sec-item-2">
           <p>
-            Worked as a Front-end Developer to build responsive and interactive
+            Worked as a Software Engineer to build responsive and interactive
             web applications using React.js, ensuring seamless user experiences.
             Collaborated with cross-functional teams to design, implement, and
             optimize features, leading to a 20% improvement in user retention.

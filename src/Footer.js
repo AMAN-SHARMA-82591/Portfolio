@@ -4,7 +4,7 @@ import reactLogo from "./Images/logo192.png";
 
 function Footer() {
   return (
-    <div class="follow-section-footer">
+    <div className="follow-section-footer">
       <h3>Made with</h3>
       <img
         style={{ height: "1.5rem", width: "1.5rem" }}

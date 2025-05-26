@@ -15,7 +15,7 @@ function contact() {
         <h1>Keep In Touch.</h1>
         <p>
           I'm currently specializing in{" "}
-          <span style={{ color: "#e4ae50" }}>Front-end Development</span>
+          <span style={{ color: "#e4ae50" }}> Full-Stack Development</span>
           .
           <br />
           Feel free to get in touch and talk more about your projects.

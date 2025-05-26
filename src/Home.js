@@ -1,37 +1,43 @@
 import React from "react";
 import "./App.css";
-import imageURL from "./Images/letter-a_10483826.png";
 import { motion } from "framer-motion";
+import roboWave from "./Images/robo-wave.png";
+import imageURL from "./Images/letter-a_10483826.png";
 import { fadeIn } from "./variants";
 
 function Home({ children }) {
   return (
     <div className="home-section" id="home">
-      <motion.div
-        variants={fadeIn("left", 0.3)}
-        initial={{ opacity: 0, x: -150 }}
-        whileInView={"show"}
-        viewport={{ once: false, amount: 0.2 }}
-        className="home-sec-container"
-      >
-        <div className="events-sec-container">
-          <p>Hi there! I'm</p>
-          <h1>Aman Sharma.</h1>
-          <p>
-            Front-End Developer <span>|</span> Problem Solver <span>|</span>{" "}
-            Tech Enthusiast
-          </p>
-          <p>
-            I am a self-taught developer with a passion for creating clean,
-            user-friendly web applications. I enjoy learning new technologies
-            and turning ideas into functional, beautiful digital experiences.
-          </p>
-          <p>
-            Enthusiastic about solving complex coding challenges and building
-            scalable projects.
-          </p>
+      <div className="home-title-main-div">
+        <motion.div
+          variants={fadeIn("left", 0.3)}
+          initial={{ opacity: 0, x: -150 }}
+          whileInView={"show"}
+          viewport={{ once: false, amount: 0.2 }}
+          className="home-sec-container"
+        >
+          <div className="events-sec-container">
+            <p>Hi there! I'm</p>
+            <h1>Aman Sharma.</h1>
+            <p>
+              Front-Stack Developer <span>|</span> Problem Solver <span>|</span>{" "}
+              Tech Enthusiast
+            </p>
+            <p>
+              I am a self-taught developer with a passion for creating clean,
+              user-friendly web applications. I enjoy learning new technologies
+              and turning ideas into functional, beautiful digital experiences.
+            </p>
+            <p>
+              Enthusiastic about solving complex coding challenges and building
+              scalable projects.
+            </p>
+          </div>
+        </motion.div>
+        <div>
+          <img src={roboWave} className="home-sec-robo-image" alt="robo-wave" />
         </div>
-      </motion.div>
+      </div>
       <div className="home-contact-links">
         <div className="home-links">
           <div>
