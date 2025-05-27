@@ -98,7 +98,7 @@ function Home({ children }) {
               <span>Email</span>
             </a>
             <a
-              href="https://drive.google.com/file/d/1RvyzO_C9M2p55vIqltKdix3HKOT_IvGB/view?usp=sharing"
+              href="https://drive.google.com/file/d/1LBrx6aTjb8uAd120L0muqMa4-8rg71v1/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
             >
